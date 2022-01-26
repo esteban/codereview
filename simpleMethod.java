@@ -1,4 +1,8 @@
-ublic static int dayOfYear(int month, int dayOfMonth, int year) {
+/*
+ * This is dayOfYear method.
+ */
+
+public static int dayOfYear(int month, int dayOfMonth, int year) {
     if (month == 2) {
         dayOfMonth += 31;
     } else if (month == 3) {
